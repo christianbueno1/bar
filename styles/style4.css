@@ -119,3 +119,9 @@ footer#foot {
     background-color: #16a085;
     height: 150px;
 } 
+
+#container-mapa {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}

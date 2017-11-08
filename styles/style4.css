@@ -46,20 +46,24 @@ div#social li {
     display: inline-block;
     width: 20px;
 }
-div#social li a {
+div a {
     color: white;
 }
 
-div#social li:nth-child(1) {
+div#social, div#menu {
+    margin-left: 50%; 
+}
+
+div#social div:nth-child(1) {
     background: #3b5999;
 }
-div#social li:nth-child(2) {
+div#social div:nth-child(2) {
     background: #55acee;
 }
-div#social li:nth-child(3) {
+div#social div:nth-child(3) {
     background: #b92b27;
 }
-div#social li:nth-child(4) {
+div#social div:nth-child(4) {
     background: #cd201f;
 }
 #section-head {
@@ -122,6 +126,5 @@ footer#foot {
 
 #container-mapa {
     padding: 0%;
-    margin: 0%;
     width: 100%;
 }

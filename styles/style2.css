@@ -1,7 +1,14 @@
-div.container {
+section, .jumbotron {
     /* background: linear-gradient(to top right,hsl(39, 57%, 83%),hsl(141, 56%, 48%)) */
-    background: linear-gradient(to bottom left,hsl(217, 86%, 51%),hsl(217, 63%, 76%));
+    /* background: linear-gradient(to bottom left,hsl(217, 86%, 51%),hsl(217, 63%, 76%)); */
+    background-color: hsl(208, 67%, 88%);
 }
+ul.list-unstyled img {
+    width: 200px;
+}
+/* .container {
+    width: 90%;
+} */
 /* nav.navbar {
     font-size: 2em;
 } */

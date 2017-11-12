@@ -1,0 +1,40 @@
+div.container {
+    /* background: linear-gradient(to top right,hsl(39, 57%, 83%),hsl(141, 56%, 48%)) */
+    background: linear-gradient(to bottom left,hsl(217, 86%, 51%),hsl(217, 63%, 76%));
+}
+/* nav.navbar {
+    font-size: 2em;
+} */
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+
+    /* #search-box> input{
+        width: 80%;
+    } */
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }

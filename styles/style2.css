@@ -6,6 +6,9 @@ section, .jumbotron {
 ul.list-unstyled img {
     width: 200px;
 }
+footer {
+    height: 100px;
+}
 /* .container {
     width: 90%;
 } */

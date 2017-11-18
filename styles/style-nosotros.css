@@ -1,3 +1,9 @@
 div.h400 {
     height: 400px;
 }
+.box {
+    margin: 10px;
+    padding: 5px;
+    text-align: justify;
+
+}

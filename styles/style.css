@@ -1,130 +1,46 @@
-* {
-    margin: 0;
-    padding: 0;
+section, .jumbotron {
+    /* background: linear-gradient(to top right,hsl(39, 57%, 83%),hsl(141, 56%, 48%)) */
+    /* background: linear-gradient(to bottom left,hsl(217, 86%, 51%),hsl(217, 63%, 76%)); */
+    background-color: hsl(208, 67%, 88%);
 }
-body {
-    font-size: 19px;
-
+ul.list-unstyled img {
+    width: 200px;
 }
-.container {
-    width: 80%;
-    margin: 0 auto;
+footer {
+    height: 80px;
 }
-#header-top{
-    background-color: #34495e;
-    color: white;
-    padding: 35px 0 20px;
-}
-#header-top h1 {
-    font-size: 3em;
-    display: inline;
-}
-#header-top #main-nav a {
-    color: white;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-#header-top #main-nav li {
-    display: inline;
-    padding: 0 40px 0;
-    list-style: none;
-}
-#header-top #main-nav {
-    float: right;
-    margin-top: 25px; 
-}
-#header-top #main-nav a:hover {
-    color: #E48E48;
-    font-weight: bold;
-}
-div#social {
-    text-align: right;
-}
-div#social li {
-    list-style: none;
-    padding: 10px 70px;
-    display: inline-block;
-    width: 20px;
-}
-div a {
-    color: white;
-}
-
-div#social, div#menu {
-    margin-left: 50%; 
-}
-
-div#social div:nth-child(1) {
-    background: #3b5999;
-}
-div#social div:nth-child(2) {
-    background: #55acee;
-}
-div#social div:nth-child(3) {
-    background: #b92b27;
-}
-div#social div:nth-child(4) {
-    background: #cd201f;
-}
-#section-head {
-    background: #95a5a6;
-    /* background: url(../images/servilleta/center.jpg); */
-    /* min-height: 300px; */
-    /* background-position: center; */
-    /* opacity: 0.4; */
-    border-bottom: 2px solid #e74c3c;
-}
-#section-head h2 {
-    padding: 20px 0 10px;
-}
-#section-head input[type="search"] {
-    padding: 4px;
-    font-size: 1.6em;
-    width: 60%;
-}
-#section-head button {
-    font-size: 1.6em;
-    padding: 4px;
-}
-
-/* BOX */
-.box img, .box footer {
-    width: 340px;
-}
-div.box {
-    display: inline-block;
-    padding: 20px 70px;
-}
-
-/* Boxlist */
-.search-results img {
-    width: 125px;
-}
-#section-list .container h2 {
-    margin: 30px 0;
-}
-#section-list ul li {
-    list-style: none;
-    background-color: #2980b9;
-}
-.search-results figure {
-    display: inline;
-}
-/* .search-results h3,div.nutritional-info {
-    width: 690px;
+/* .container {
+    width: 90%;
 } */
-#section-list div#div-list {
-    display: inline-block;
-    vertical-align: top;
-}
-footer#foot {
-    text-align: center;
-    padding-top: 40px;
-    background-color: #16a085;
-    height: 150px;
-} 
+/* nav.navbar {
+    font-size: 2em;
+} */
 
-#container-mapa {
-    padding: 0%;
-    width: 100%;
+#comidas>div {
+    background-color: #F6F5F9;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+
+    /* #search-box> input{
+        width: 80%;
+    } */
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }

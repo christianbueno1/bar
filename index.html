@@ -35,7 +35,7 @@
                             <a class="nav-link" href="nosotros.html">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="mapa2.html">Mapa</a>
+                            <a class="nav-link" href="mapa.html">Mapa</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link disabled" href="#">Disabled</a>
@@ -64,46 +64,55 @@
     </header>
     <section class="pb-2">
         <div class="container text-center">
-            <div id="comidas" class="row">
+            <div id="comidas" class="row pt-3">
                 <div class="col-lg-3 col-md-6 border rounded border-dark">
-                    <h2>Comida Uno</h2>
+                    <h2 id="h2platillo0"></h2>
                     <img class="img-rounded" width="100%" src="img/servilleta/r1.jpg" alt="Un exquisito platillo">
-                    <p>Valor nutricional: Calories: 80, Fat: 3g, Carbs: 13g, Protein: 2g</p>
+                    <!-- <p id="myp">Valor nutricional: Calories: 80, Fat: 3g, Carbs: 13g, Protein: 2g</p> -->
+                    <p id="pnutricional0">
+                        <strong>Valor nutricional:</strong>
+                    </p>
                     <div class="row text-center mx-auto">
                         <strong>Restaurante: &nbsp</strong>
-                        <p>Bar-fiec</p>
+                        <!-- <p id="pname1">Bar-fiec</p> -->
+                        <p id="pname0"></p>
                     </div>
                     <div class="row text-center mx-auto">
                         <strong>Facultad: &nbsp</strong>
-                        <p>Fiec</p>
+                        <!-- <p id="pfacultad1">Fiec</p> -->
+                        <p id="pfacultad0"></p>
                     </div>
                     <p><a href="#" class="btn btn-secondary" role="button">Detalles &raquo;</a></p>
                 </div>
                 <div class="col-lg-3 col-md-6 border rounded border-dark">
-                    <h2>Comida Dos</h2>
+                    <h2 id="h2platillo1"></h2>
                     <img class="img-rounded" width="100%" src="img/servilleta/r1.jpg" alt="Un exquisito platillo">
-                    <p>Valor nutricional: Calories: 80, Fat: 3g, Carbs: 13g, Protein: 2g</p>
+                    <p id="pnutricional1">
+                        <strong>Valor nutricional:</strong>
+                    </p>
                     <div class="row text-center mx-auto">
                         <strong>Restaurante: &nbsp</strong>
-                        <p>Bar-fiec</p>
+                        <p id="pname1"></p>
                     </div>
                     <div class="row text-center mx-auto">
                         <strong>Facultad: &nbsp</strong>
-                        <p>Fiec</p>
+                        <p id="pfacultad1"></p>
                     </div>
                     <p><a href="#" class="btn btn-secondary" role="button">Detalles &raquo;</a></p>
                 </div>
                 <div class="col-lg-3 col-md-6 border rounded border-dark">
-                    <h2>Comida Tres</h2>
+                    <h2 id="h2platillo2"></h2>
                     <img class="img-rounded" width="100%" src="img/servilleta/r1.jpg" alt="Un exquisito platillo">
-                    <p>Valor nutricional: Calories: 80, Fat: 3g, Carbs: 13g, Protein: 2g</p>
+                    <p id="pnutricional2">
+                        <strong>Valor nutricional:</strong>
+                    </p>
                     <div class="row text-center mx-auto">
                         <strong>Restaurante: &nbsp</strong>
-                        <p>Bar-fiec</p>
+                        <p id="pname2"></p>
                     </div>
                     <div class="row text-center mx-auto">
                         <strong>Facultad: &nbsp</strong>
-                        <p>Fiec</p>
+                        <p id="pfacultad2">Fiec</p>
                     </div>
                     <p><a href="#" class="btn btn-secondary" role="button">Detalles &raquo;</a></p>
                 </div>                                
@@ -111,62 +120,44 @@
         </div>
 
         <div class="container">
-            <ul class="list-unstyled">
+            <ul class="list-unstyled mt-5">
                 <li class="media">
                     <img class="mr-3" src="img/servilleta/r2.jpg" alt="Generic placeholder image">
                     <div class="media-body">
-                    <h5 class="mt-0 mb-1">Platillo uno</h5>
-                        <div class="nutritional-info">
-                            <label for="">Porcion:</label>
-                            1 plato,
-                            <label for="">Calorias:</label>
-                            80,
-                            <label for="">Grasas:</label>
-                            3g,
-                            <label for="">Carboidratos:</label>
-                            13g,
-                            <label for="">Proteinas:</label>
-                            2g
-                        </div> 
+                    <h5 id="h2platillo3" class="mt-0 mb-1"></h5>
+                        <div id="pnutricional3" class="nutritional-info">
+                            <span>Porcion:1 plato,&nbsp</span>
+                        </div>
+                        <span>Restaurant:&nbsp</span>
+                        <span id="pname3">delicia</span><br>
+                        <span>Facultad:&nbsp</span>
+                        <span id="pfacultad3">fiec</span>
                     </div>
                 </li>
                 <li class="media my-4">
                     <img class="mr-3" src="img/servilleta/r3.jpg" alt="Generic placeholder image">
                     <div class="media-body">
-                    <h5 class="mt-0 mb-1">Platillo dos</h5>
-                        <div class="nutritional-info">
-                            <label for="">Porcion:</label>
-                            1 plato,
-                            <label for="">Calorias:</label>
-                            80,
-                            <label for="">Grasas:</label>
-                            3g,
-                            <label for="">Carboidratos:</label>
-                            13g,
-                            <label for="">Proteinas:</label>
-                            2g
+                    <h5 id="h2platillo4" class="mt-0 mb-1"></h5>
+                        <div id="pnutricional4" class="nutritional-info">
+                            <span>Porcion:1 plato,&nbsp</span>                                
                         </div>    
-
+                        <span>Restaurant:&nbsp</span>
+                        <span id="pname4">delicia</span><br>
+                        <span>Facultad:&nbsp</span>
+                        <span id="pfacultad4">fiec</span>
                     </div>
                 </li>
                 <li class="media">
                     <img class="mr-3" src="img/servilleta/r4.jpg" alt="Generic placeholder image">
                     <div class="media-body">
-                    <h5 class="mt-0 mb-1">Platillo tres</h5>
-                        <div class="nutritional-info">
-                            <label for="">Porcion:</label>
-                            1 plato,
-                            <label for="">Calorias:</label>
-                            80,
-                            <label for="">Grasas:</label>
-                            3g,
-                            <label for="">Carboidratos:</label>
-                            13g,
-                            <label for="">Proteinas:</label>
-                            2g
+                    <h5 id="h2platillo5" class="mt-0 mb-1"></h5>
+                        <div id="pnutricional5" class="nutritional-info">
+                            <span>Porcion:1 plato,&nbsp</span>                                                                
                         </div>    
-                    
-                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        <span>Restaurant:&nbsp</span>
+                        <span id="pname5"></span><br>
+                        <span>Facultad:&nbsp</span>
+                        <span id="pfacultad5"></span>                    
                     </div>
                 </li>
             </ul>          
@@ -185,6 +176,10 @@
         <p class="pt-4">Copyright &copy; 2017 Xenial, Inc. Todos los derechos reservados &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
     </footer>
 
+    <!-- mi scripts -->
+    <script src="scripts/myfunctions.js"></script>
+    <script src="scripts/script.js"></script>
+    <!-- bootstrap -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"

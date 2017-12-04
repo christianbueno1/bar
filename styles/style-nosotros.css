@@ -11,3 +11,14 @@ div.h400 {
 footer {
     height: 80px;
 }
+
+iframe {
+	width: 100%;	
+	frameborder: 0;
+}
+
+#titulo {
+	padding-bottom: 0.1%;
+	padding-top: 0.5%;
+	background-color: hsl(208, 67%, 88%);
+}

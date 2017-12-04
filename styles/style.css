@@ -23,7 +23,9 @@ footer {
     margin-bottom: 4%;
 }
 
-
+#comidas > div > img {
+    width: 100%;
+}
 
 
 // Extra small devices (portrait phones, less than 576px)

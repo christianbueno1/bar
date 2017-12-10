@@ -78,5 +78,5 @@ function fullContent(){
 }
 
 window.onload = function() {
-    makeRequest("https://api.myjson.com/bins/t6ulz");
+    makeRequest("data/data.json");
 }

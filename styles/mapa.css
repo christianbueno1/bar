@@ -1,0 +1,27 @@
+div.h400 {
+    height: 400px;
+}
+.box {
+    margin: 10px;
+    padding: 5px;
+    text-align: justify;
+
+}
+
+footer {
+    height: 80px;
+}
+
+iframe {
+	width: 100%;	
+	/* frameborder: 0; */
+}
+
+#titulo {
+	padding-bottom: 0.1%;
+	padding-top: 0.5%;
+	background-color: hsl(208, 67%, 88%);
+}
+body {
+    background-color: hsl(208, 67%, 88%);
+}

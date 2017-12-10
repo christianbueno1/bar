@@ -1,0 +1,44 @@
+[
+    {
+        "platillo": "guatita",
+        "image":"r3.jpg",
+        "nombre": "mi restaurant1",
+        "facultad": "fiec",
+        "puntaje": "70%"
+    },
+    {
+        "platillo": "encebollado",
+        "image": "r4.jpg",
+        "nombre": "delicias",
+        "facultad": "fcsh",
+        "puntaje": "20%"
+    },
+    {
+        "platillo": "relleno de atun",
+        "image":"r1.jpg",
+        "nombre": "bar bar",
+        "facultad": "fiec",
+        "puntaje": "50%"
+    },
+    {
+        "platillo": "pollo al vino",
+        "image": "r2.jpg",
+        "nombre": "delicias",
+        "facultad": "fcsh",
+        "puntaje": "10%"
+    },
+    {
+        "platillo": "menestron",
+        "image":"r3.jpg",
+        "nombre": "bar el mejor",
+        "facultad": "fiec",
+        "puntaje": "60%"
+    },
+    {
+        "platillo": "cazuela",
+        "image": "r4.jpg",
+        "nombre": "riviera",
+        "facultad": "fcsh",
+        "puntaje": "30%"
+    }
+]

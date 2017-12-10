@@ -10,7 +10,10 @@ section {
     width: 100%;
 }  
 .mydate {
+    position: relative;
     color: hsl(208, 67%, 88%);
+    z-index: 1;
+    background-color: #353A40;
 }
  
   /* Set a background color */

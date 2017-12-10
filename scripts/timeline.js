@@ -73,7 +73,7 @@ function timeLine(){
                     myh2dish.classList.add("text-center");
                     myimgdish.setAttribute('src','img/servilleta/'+jsondata[i+count].image);
                     myimgdish.setAttribute('alt','pollo al vino');
-                    myimgdish.classList.add("imgsize");
+                    myimgdish.classList.add("imgsize","rounded");
                     myprest.classList.add("d-inline-block");
                     mypfacu.classList.add("d-inline-block");
                     myppunt.classList.add("d-inline-block");                var today = new Date();

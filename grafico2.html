@@ -1,0 +1,21 @@
+{% extends "base_generic.html" %}
+{% load static %}
+
+{% block title %}Grafico | Servilleta{% endblock %}
+
+{% block stylesheet %}
+<link rel="stylesheet" href="{% static 'bar/styles/grafico.css' %}">
+{% endblock %}
+
+
+{% block content %}
+<div id="votaciones" class="container">
+    <h2>Votaciones</h2>
+    <div class="chart"></div>  
+</div>
+{% endblock %}
+
+{% block javascript %}
+<script src="{% static 'bar/scripts/grafico.js' %}"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+{% endblock %}

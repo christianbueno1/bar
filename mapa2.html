@@ -1,0 +1,19 @@
+{% extend "base_generic.html" %}
+{% load static %}
+
+{% block title %}Mapa | Servilleta{% endblock %}
+
+{% block stylesheet %}
+<link rel="stylesheet" href="{% static 'bar/styles/mapa.css' %}">
+{% endblock %}
+
+{% block content %}
+<div id="titulo" class="text-center">
+    <h2>Mapa</h2>
+    <p>El mapa muestra todos los restarurantes de espol</p>
+</div>
+<div id="container-mapa" class="container">
+    <iframe id="mapa" height="800" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCJs6nR8XnjtzpFbM3iBxJJ9AedqmI63Mc&q=Escuela+Superior+Politécnica+del+Litoral+(ESPOL)" allowfullscreen>
+    </iframe>
+</div>
+{% endblock %}

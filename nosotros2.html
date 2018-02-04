@@ -1,0 +1,45 @@
+{% extends "base_generic.html" %}
+{% load static %}
+
+{% block title %}Nosotros | Servilleta{% endblock %}
+
+{% block stylesheet %}
+<link rel="stylesheet" href="{% static 'bar/styles/style-nosotros.css' %}">
+{% endblock %}
+
+{% block header %}
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner h400">
+        <div class="carousel-item active">
+            <img class="d-block w-100 " src="img/servilleta/r1.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="img/servilleta/r2.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="img/servilleta/r3.jpg" alt="Third slide">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+{% endblock %}
+
+{% block content %}
+<section>
+    <div class="box p-5 m-4 rounded border border-primary">
+        <h2>Xenial inc.</h2>
+        <p>somos una marca reconocida muy bien a nivel nacional en el desarrollo web. contamos una exelente cartera de clientes. Cuidamos cada detalle de nuestros cliente. Ellos son siempre nuestros socios son siempre nuestros socios son siempre nuestros socios son siempre nuestros socios</p>      
+    </div>
+    <div class="box p-5 m-4 rounded border border-primary">
+        <h2>Mision</h2>
+        <p>Ofrecer un servicio que satisfaga a nuestros clientes , brindando el resultado esperado brindando el resultado esperado brindando el resultado esperado brindando el resultado esperado brindando el resultado esperado brindando el resultado esperado</p>      
+    </div>                 
+</section>
+{% endblock %}

@@ -1,0 +1,47 @@
+{% extend "base_generic.html" %}
+{% load static %}
+
+{% block title %}Top-2 | Servilleta{% endblock %}
+
+{% block stylesheet %}
+<link rel="stylesheet" href="{% static 'bar/styles/timeline.css' %}">
+{% endblock %}
+
+{% block content %}
+<section>
+    <button class="mt-2 btn btn-primary" onclick="stop();">Detener el timeline(stop me)</button>
+    <h2 class="text-center text-info">Estos son los 2 mejores platillos del dia de la fecha</h2>
+    <div class="timeline">
+        <h2 class="text-center mydate pt-3">Viernes 8 de Diciembre del 2017</h2>
+        <div class="mycontainer left">
+            <div class="content">
+                <h2 class="text-center">Guatita</h2>
+                <img class="imgsize rounded" src="img/servilleta/r4.jpg" alt="guatita">
+                <strong>Restaurante:&nbsp</strong>
+                <p class="d-inline-block">Mi restaurant</p><br>
+                <strong>Facultad:&nbsp</strong>
+                <p class="d-inline-block">FIEC</p><br>                
+                <strong>Puntaje:&nbsp</strong>
+                <p class="d-inline-block">70%</p>                
+            </div>
+        </div>
+        <div class="mycontainer right">
+            <div class="content">
+                <h2 class="text-center">Encebollado</h2>
+                <img class="imgsize rounded" src="img/servilleta/r3.jpg" alt="encebollado">
+                <strong>Restaurante:&nbsp</strong>
+                <p class="d-inline-block">Mi Otro restaurant</p><br>
+                <strong>Facultad:&nbsp</strong>
+                <p class="d-inline-block">FCSH</p><br> 
+                <strong>Puntaje:&nbsp</strong>
+                <p class="d-inline-block">20%</p>                
+            </div>
+        </div>
+    </div>        
+</section>
+{% endblock %}
+
+{% block javascript %}
+<script src="{% static 'bar/scripts/myfunctions.js' %}"></script>
+<script src="{% static 'bar/scripts/timeline.js' %}"></script>
+{% endblock %}

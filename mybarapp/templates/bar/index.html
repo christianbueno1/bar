@@ -1,4 +1,4 @@
-{% extends "base_generic.html" %}
+{% extends "bar/base_generic.html" %}
 {% load static %}
 
 {% block title %}Servilleta{% endblock %}
@@ -138,6 +138,7 @@
 {% endblock %}
 
 {% block javascript %}
-<script src="{% static bar/scripts/myfunctions.js %}"></script>
-<script src="{% static bar/scripts/script.js %}"></script>
+<script src="{% static 'bar/data/data.json' %}"></script>
+<script src="{% static 'bar/scripts/myfunctions.js' %}"></script>
+<script src="{% static 'bar/scripts/script.js' %}"></script>
 {% endblock %}

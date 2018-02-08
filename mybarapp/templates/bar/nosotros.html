@@ -1,4 +1,4 @@
-{% extends "base_generic.html" %}
+{% extends "bar/base_generic.html" %}
 {% load static %}
 
 {% block title %}Nosotros | Servilleta{% endblock %}
@@ -11,13 +11,13 @@
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner h400">
         <div class="carousel-item active">
-            <img class="d-block w-100 " src="img/servilleta/r1.jpg" alt="First slide">
+            <img class="d-block w-100 " src="{% static 'bar/img/servilleta/r1.jpg' %}" alt="First slide">
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="img/servilleta/r2.jpg" alt="Second slide">
+            <img class="d-block w-100" src="{% static 'bar/img/servilleta/r2.jpg' %}" alt="Second slide">
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="img/servilleta/r3.jpg" alt="Third slide">
+            <img class="d-block w-100" src="{% static 'bar/img/servilleta/r3.jpg' %}" alt="Third slide">
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

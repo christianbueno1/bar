@@ -1,3 +1,4 @@
+{% load static %}
 var http_request = false;
 
 function makeRequest(url){
@@ -22,6 +23,10 @@ function makeRequest(url){
         alert('Falla :( No es posible crear una instancia XMLHTTP');
         return false;
     }
+
+    console.log(window.location.pathname);
+    console.log(document.location.pathname);
+
     http_request.onreadystatechange = fullContent;
     http_request.open('GET', url, true);
     http_request.send(null);
@@ -32,9 +37,10 @@ function fullContent(){
             /*Aquí deben procesar el JSON y mostrar la respuesta en el HTML
             Utilice JSON.parse() para convertir la respuesta en un objeto
             */
+
             var jsondata = JSON.parse(http_request.responseText);
-            // console.log(jsondata);
-            // console.log(jsondata[2]["calorias"]);
+//             console.log(jsondata);
+//             console.log(jsondata[2]["calorias"]);
 
             // var h2platillo = document.getElementById("h2platillo0");
             var pnutricional = document.getElementById("pnutricional0");
@@ -73,10 +79,12 @@ function fullContent(){
             }
         } else {
             alert('Hubo problemas con la petición.');
+            console.log(http_request.status);
         }
     }    
 }
 
 window.onload = function() {
-    makeRequest("data/data.json");
+    makeRequest("{% static 'bar/data/data.json'%}");
+
 }

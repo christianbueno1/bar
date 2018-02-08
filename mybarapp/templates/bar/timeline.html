@@ -1,4 +1,4 @@
-{% extend "base_generic.html" %}
+{% extends "bar/base_generic.html" %}
 {% load static %}
 
 {% block title %}Top-2 | Servilleta{% endblock %}
@@ -16,7 +16,7 @@
         <div class="mycontainer left">
             <div class="content">
                 <h2 class="text-center">Guatita</h2>
-                <img class="imgsize rounded" src="img/servilleta/r4.jpg" alt="guatita">
+                <img class="imgsize rounded" src="{% static 'bar/img/servilleta/r4.jpg' %}" alt="guatita">
                 <strong>Restaurante:&nbsp</strong>
                 <p class="d-inline-block">Mi restaurant</p><br>
                 <strong>Facultad:&nbsp</strong>
@@ -28,7 +28,7 @@
         <div class="mycontainer right">
             <div class="content">
                 <h2 class="text-center">Encebollado</h2>
-                <img class="imgsize rounded" src="img/servilleta/r3.jpg" alt="encebollado">
+                <img class="imgsize rounded" src="{% static 'bar/img/servilleta/r3.jpg' %}" alt="encebollado">
                 <strong>Restaurante:&nbsp</strong>
                 <p class="d-inline-block">Mi Otro restaurant</p><br>
                 <strong>Facultad:&nbsp</strong>

@@ -122,7 +122,7 @@ function timeLine(){
 }
 
 window.onload = function() {
-    makeRequest('data/timeline-data.json');
+    makeRequest('/static/bar/data/timeline-data.json');
 }
 
 function stop() {

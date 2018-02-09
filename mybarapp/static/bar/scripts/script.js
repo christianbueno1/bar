@@ -1,4 +1,3 @@
-{% load static %}
 var http_request = false;
 
 function makeRequest(url){
@@ -24,8 +23,8 @@ function makeRequest(url){
         return false;
     }
 
-    console.log(window.location.pathname);
-    console.log(document.location.pathname);
+//    console.log(window.location.pathname);
+//    console.log(document.location.pathname);
 
     http_request.onreadystatechange = fullContent;
     http_request.open('GET', url, true);
@@ -85,6 +84,5 @@ function fullContent(){
 }
 
 window.onload = function() {
-    makeRequest("{% static 'bar/data/data.json'%}");
-
+    makeRequest("/static/bar/data/data.json");
 }

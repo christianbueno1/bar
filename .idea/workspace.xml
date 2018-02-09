@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="107efbc0-091e-46a6-8a1f-754691a772f7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/mybarapp/static/bar/scripts/script.js" afterPath="$PROJECT_DIR$/mybarapp/static/bar/scripts/script.js" />
-      <change beforePath="$PROJECT_DIR$/mybarapp/templates/bar/base_generic.html" afterPath="$PROJECT_DIR$/mybarapp/templates/bar/base_generic.html" />
-      <change beforePath="$PROJECT_DIR$/mybarapp/templates/bar/grafico.html" afterPath="$PROJECT_DIR$/mybarapp/templates/bar/grafico.html" />
+      <change beforePath="$PROJECT_DIR$/mybarapp/static/bar/scripts/timeline.js" afterPath="$PROJECT_DIR$/mybarapp/static/bar/scripts/timeline.js" />
       <change beforePath="$PROJECT_DIR$/mybarapp/templates/bar/index.html" afterPath="$PROJECT_DIR$/mybarapp/templates/bar/index.html" />
-      <change beforePath="$PROJECT_DIR$/mybarapp/templates/bar/mapa.html" afterPath="$PROJECT_DIR$/mybarapp/templates/bar/mapa.html" />
-      <change beforePath="$PROJECT_DIR$/mybarapp/templates/bar/nosotros.html" afterPath="$PROJECT_DIR$/mybarapp/templates/bar/nosotros.html" />
-      <change beforePath="$PROJECT_DIR$/mybarapp/templates/bar/timeline.html" afterPath="$PROJECT_DIR$/mybarapp/templates/bar/timeline.html" />
-      <change beforePath="$PROJECT_DIR$/mybarapp/urls.py" afterPath="$PROJECT_DIR$/mybarapp/urls.py" />
-      <change beforePath="$PROJECT_DIR$/mybarapp/views.py" afterPath="$PROJECT_DIR$/mybarapp/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,18 +18,18 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bar/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-1070">
               <caret line="47" column="33" lean-forward="false" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybarapp/static/bar/scripts/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-420">
-              <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+            <state relative-caret-position="-594">
+              <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -55,8 +48,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybarapp/templates/bar/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="141" column="25" lean-forward="false" selection-start-line="141" selection-start-column="25" selection-end-line="141" selection-end-column="25" />
+            <state relative-caret-position="1076">
+              <caret line="73" column="53" lean-forward="true" selection-start-line="73" selection-start-column="53" selection-end-line="73" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -65,7 +58,7 @@
       <file leaf-file-name="base_generic.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybarapp/templates/bar/base_generic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
+            <state relative-caret-position="-240">
               <caret line="39" column="75" lean-forward="true" selection-start-line="39" selection-start-column="75" selection-end-line="39" selection-end-column="75" />
               <folding />
             </state>
@@ -94,6 +87,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="timeline.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybarapp/templates/bar/timeline.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-464">
+              <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybarapp/templates/bar/detail.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -104,21 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grafico.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybarapp/templates/bar/grafico.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="timeline.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="timeline.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mybarapp/static/bar/scripts/timeline.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="1172">
+              <caret line="124" column="29" lean-forward="false" selection-start-line="124" selection-start-column="29" selection-end-line="124" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -153,8 +146,9 @@
         <option value="$PROJECT_DIR$/mybarapp/templates/bar/timeline.html" />
         <option value="$PROJECT_DIR$/mybarapp/templates/bar/grafico.html" />
         <option value="$PROJECT_DIR$/mybarapp/views.py" />
-        <option value="$PROJECT_DIR$/mybarapp/templates/bar/index.html" />
         <option value="$PROJECT_DIR$/mybarapp/static/bar/scripts/script.js" />
+        <option value="$PROJECT_DIR$/mybarapp/templates/bar/index.html" />
+        <option value="$PROJECT_DIR$/mybarapp/static/bar/scripts/timeline.js" />
       </list>
     </option>
   </component>
@@ -575,26 +569,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybarapp/templates/bar/timeline.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybarapp/templates/bar/grafico.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybarapp/static/bar/scripts/timeline.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -617,14 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bar/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="47" column="33" lean-forward="false" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybarapp/static/bar/scripts/data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -641,6 +611,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bar/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1070">
+          <caret line="47" column="33" lean-forward="false" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybarapp/templates/bar/base_generic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="39" column="75" lean-forward="true" selection-start-line="39" selection-start-column="75" selection-end-line="39" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mybarapp/static/bar/data/data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -649,26 +635,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybarapp/templates/bar/base_generic.html">
+    <entry file="file://$PROJECT_DIR$/mybarapp/static/bar/scripts/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="39" column="75" lean-forward="true" selection-start-line="39" selection-start-column="75" selection-end-line="39" selection-end-column="75" />
+        <state relative-caret-position="-594">
+          <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mybarapp/templates/bar/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="141" column="25" lean-forward="false" selection-start-line="141" selection-start-column="25" selection-end-line="141" selection-end-column="25" />
+        <state relative-caret-position="1076">
+          <caret line="73" column="53" lean-forward="true" selection-start-line="73" selection-start-column="53" selection-end-line="73" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybarapp/static/bar/scripts/script.js">
+    <entry file="file://$PROJECT_DIR$/mybarapp/templates/bar/timeline.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-420">
-          <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+        <state relative-caret-position="-464">
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybarapp/static/bar/scripts/timeline.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1172">
+          <caret line="124" column="29" lean-forward="false" selection-start-line="124" selection-start-column="29" selection-end-line="124" selection-end-column="29" />
           <folding />
         </state>
       </provider>

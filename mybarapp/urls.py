@@ -10,4 +10,6 @@ urlpatterns = [
     path('mapa/', views.mapa, name='mapa'),
     path('timeline/', views.timeline, name='timeline'),
     path('grafico/', views.grafico, name='grafico'),
+    path('login/', views.login, name='login'),
+    path('login_validation/', views.login_validation, name='login_validation'),
 ]

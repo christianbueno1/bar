@@ -10,7 +10,7 @@ class Restaurante(models.Model):
 class Usuario(models.Model):
     nombre_real = models.CharField(max_length=30)
     correo = models.EmailField()
-    usuario = models.CharField(max_length=30)
+    usuario = models.CharField(primary_key=True, max_length=30)
     password = models.CharField(max_length=30)
 
 class Platillo(models.Model):

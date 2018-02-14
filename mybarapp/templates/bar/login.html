@@ -1,0 +1,33 @@
+{% extends "bar/base_generic.html" %}
+{% load static %}
+
+{% block title %}Login | Servilleta{% endblock %}
+
+{% block stylesheet %}
+<link rel="stylesheet" href="{% static 'bar/styles/style-nosotros.css' %}">
+{% endblock %}
+
+{% block header %}
+
+<section>
+    <form action="/bar/login_validation/" method="post"> {% csrf_token %}
+    
+        <div>
+        
+            <label for="name">Usuario:</label>
+        
+            <input type="text" id="user_name" name="user_name">   </div>
+    
+        <div>
+        
+            <label for="mail">Contraseña:</label>
+        
+            <input type="password" id="user_password" name="user_password">   </div>
+    
+        <div class="button">
+        
+            <button type="submit">Ingresar</button>
+            </div>
+    </form>                 
+</section>
+{% endblock %}

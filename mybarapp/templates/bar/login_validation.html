@@ -1,0 +1,16 @@
+{% extends "bar/base_generic.html" %}
+{% load static %}
+
+{% block title %}Login | Servilleta{% endblock %}
+
+{% block stylesheet %}
+<link rel="stylesheet" href="{% static 'bar/styles/style-nosotros.css' %}">
+{% endblock %}
+
+{% block content %}
+<section>
+    <div class="col-md-offset-2 col-md-8 text-center">
+        <h2>{{login}}</h>
+    </div> 
+</section>
+{% endblock %}

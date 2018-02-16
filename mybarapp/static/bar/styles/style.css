@@ -3,22 +3,13 @@ section, .jumbotron {
     /* background: linear-gradient(to bottom left,hsl(217, 86%, 51%),hsl(217, 63%, 76%)); */
     background-color: hsl(208, 67%, 88%);   
 }
-.mynavbar {
 
-    font-family: 'Handlee', cursive;
-    font-size: 1.20rem;
-    
-}
 .jumbotron {
     font-family: 'Varela Round', sans-serif;
     
 }
 ul.list-unstyled img {
     width: 200px;
-}
-footer {
-    height: 80px;
-    font-family: 'Varela Round', sans-serif;  
 }
 /* .container {
     width: 90%;

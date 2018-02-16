@@ -1,0 +1,9 @@
+.box {
+    text-align: justify;
+    background-color: hsl(208, 67%, 88%)
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}

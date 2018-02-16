@@ -1,0 +1,29 @@
+{% extends 'mybarapp/base_generic.html' %}
+{% load static %}
+
+{% block title %}Servilleta | Platillos{% endblock %}
+
+{% block stylesheet %}
+<link rel="stylesheet" href="{% static 'bar/styles/platillo_list.css' %}">
+{% endblock %}
+
+{% block header %}
+{% endblock %}
+
+{% block content %}
+    <h1>Lista de los Platillos</h1>
+    {% if platillo_list %}
+        <ul>
+        {% for platillo in platillo_list %}
+            <li>
+                <a href="{{ platillo.get_absolute_url }}">{{ platillo.platillo }}</a>
+            </li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No existen platillos</p>
+    {% endif %}
+{% endblock %}
+
+{% block javascript %}
+{% endblock %}

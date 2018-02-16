@@ -1,25 +1,28 @@
 from django.shortcuts import render, get_object_or_404
+from django.views import generic
 
-from .models import Restaurante, Platillo
+from .models import Restaurante, Platillo, Precio
 # Create your views here.
 
 def index(request):
 
     lista_platillos = {}
-    return render(request, 'bar/index.html', lista_platillos)
-
-def details(request, platillo_id):
-    platillo = get_object_or_404(Platillo, pk=platillo_id)
-    return render(request, 'bar/detail.html', {'platillo': platillo})
+    return render(request, 'mybarapp/index.html', lista_platillos)
 
 def nosotros(request):
-    return render(request, 'bar/nosotros.html',{})
+    return render(request, 'mybarapp/nosotros.html',{})
 
 def mapa(request):
-    return render(request, 'bar/mapa.html', {})
+    return render(request, 'mybarapp/mapa.html', {})
 
 def timeline(request):
-    return render(request, 'bar/timeline.html', {})
+    return render(request, 'mybarapp/timeline.html', {})
 
 def grafico(request):
-    return render(request, 'bar/grafico.html', {})
+    return render(request, 'mybarapp/grafico.html', {})
+
+class PlatilloListView(generic.ListView):
+    model = Platillo
+
+class PlatilloDetailView(generic.DetailView):
+    model = Platillo

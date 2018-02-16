@@ -13,3 +13,7 @@
 	margin-top: 5%;
 	padding-bottom: 2%;
 }
+footer {
+    position: absolute;
+    bottom: 0;
+}

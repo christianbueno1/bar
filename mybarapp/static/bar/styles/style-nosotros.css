@@ -1,7 +1,3 @@
-.mynavbar {   
-    font-family: 'Handlee', cursive;
-    font-size: 1.20rem;
-}
 section {
     font-family: 'Varela Round', sans-serif;    
 }
@@ -13,11 +9,6 @@ div.h400 {
     padding: 5px;
     text-align: justify;
     background-color: hsl(208, 67%, 88%)
-}
-
-footer {
-    height: 80px;
-    font-family: 'Varela Round', sans-serif;    
 }
 
 iframe {

@@ -1,0 +1,25 @@
+{% extends 'mybarapp/base_generic.html' %}
+{% load static %}
+
+{% block title %}Servilleta | {{ platillo.platillo }}{% endblock %}
+
+{% block stylesheet %}
+<link rel="stylesheet" href="{% static 'bar/styles/platillo_detail.css' %}">
+{% endblock %}
+
+{% block header %}
+{% endblock %}
+
+{% block content %}
+    <div class="box p-5 m-4 rounded border border-primary">
+        <img src="/{{ palitllo.image }}" alt="una imagen">
+        <p><strong>Nombre:</strong> {{ platillo.platillo }}</p>
+        <p><strong>Calorias:</strong> {{ platillo.calorias }}</p>
+        <p><strong>Grasa:</strong> {{ platillo.grasa }}</p>
+        <p><strong>Carbohidratos:</strong> {{ platillo.carbohidratos }}</p>
+        <p><strong>Proteinas:</strong> {{ platillo.proteinas }}</p>
+    </div>
+{% endblock %}
+
+{% block javascript %}
+{% endblock %}

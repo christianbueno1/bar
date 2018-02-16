@@ -1,7 +1,3 @@
-.mynavbar {   
-    font-family: 'Handlee', cursive;
-    font-size: 1.20rem;
-}
 div.h400 {
     height: 400px;
 }
@@ -10,11 +6,6 @@ div.h400 {
     padding: 5px;
     text-align: justify;
 
-}
-
-footer {
-    height: 80px;
-    font-family: 'Varela Round', sans-serif;        
 }
 
 iframe {

@@ -1,10 +1,10 @@
 {% extends 'mybarapp/base_generic.html' %}
 {% load static %}
 
-{% block title %}Servilleta | Platillos{% endblock %}
+{% block title %}Servilleta | Restaurantes{% endblock %}
 
 {% block stylesheet %}
-<link rel="stylesheet" href="{% static 'bar/styles/platillo_list.css' %}">
+<link rel="stylesheet" href="{% static 'bar/styles/restaurante_list.css' %}">
 {% endblock %}
 
 {% block header %}
@@ -12,20 +12,19 @@
 
 {% block content %}
     <div class="box p-5 m-4 rounded border border-primary">
-        <h1>Lista de los Platillos</h1>
-        {% if platillo_list %}
+        <h1>Lista de los Restaurantes</h1>
+        {% if restaurante_list %}
             <ul>
-            {% for platillo in platillo_list %}
+            {% for restaurante in restaurante_list %}
                 <li>
-                    <a href="{{ platillo.get_absolute_url }}">{{ platillo.platillo }}</a>
+                    <a href="{{ restaurante.get_absolute_url }}">{{ restaurante.restaurante }}</a>
                 </li>
             {% endfor %}
             </ul>
         {% else %}
-            <p>No existen platillos</p>
+            <p>No existen restaurantes</p>
         {% endif %}
     </div>
-
 {% endblock %}
 
 {% block javascript %}

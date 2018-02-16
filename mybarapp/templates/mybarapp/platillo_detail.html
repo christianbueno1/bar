@@ -12,7 +12,7 @@
 
 {% block content %}
     <div class="box p-5 m-4 rounded border border-primary">
-        <img src="/{{ palitllo.image }}" alt="una imagen">
+        <img src="{{ platillo.image.path }}" alt="una imagen">
         <p><strong>Nombre:</strong> {{ platillo.platillo }}</p>
         <p><strong>Calorias:</strong> {{ platillo.calorias }}</p>
         <p><strong>Grasa:</strong> {{ platillo.grasa }}</p>

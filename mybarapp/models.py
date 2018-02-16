@@ -30,7 +30,7 @@ class Platillo(models.Model):
     grasa = models.DecimalField(max_digits=8, decimal_places=2)
     carbohidratos = models.DecimalField(max_digits=8, decimal_places=2)
     proteinas = models.DecimalField(max_digits=8, decimal_places=2)
-    image = models.ImageField(upload_to='platillos')
+    image = models.ImageField(upload_to='media/platillos/')
 
     class Meta:
         ordering = ["platillo"]

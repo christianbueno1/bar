@@ -1,0 +1,23 @@
+{% extends 'mybarapp/base_generic.html' %}
+{% load static %}
+
+{% block title %}Servilleta | {{ restaurante.restaurante }}{% endblock %}
+
+{% block stylesheet %}
+<link rel="stylesheet" href="{% static 'bar/styles/restaurante_detail.css' %}">
+{% endblock %}
+
+{% block header %}
+{% endblock %}
+
+{% block content %}
+    <div class="box p-5 m-4 rounded border border-primary">
+        <p><strong>Nombre:</strong> {{ restaurante.restaurante }}</p>
+        <p><strong>Facultad:</strong> {{ restaurante.facultad }}</p>
+        <p><strong>Atencion desde::</strong> {{ restaurante.horario_ini }}</p>
+        <p><strong>Atencion hasta:</strong> {{ restaurante.horario_fin }}</p>
+    </div>
+{% endblock %}
+
+{% block javascript %}
+{% endblock %}

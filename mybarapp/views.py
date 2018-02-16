@@ -1,5 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from django.views import generic
+from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.decorators import login_required
 
 from .models import Restaurante, Platillo, Precio
 # Create your views here.
@@ -18,11 +20,19 @@ def mapa(request):
 def timeline(request):
     return render(request, 'mybarapp/timeline.html', {})
 
+@login_required
 def grafico(request):
     return render(request, 'mybarapp/grafico.html', {})
 
-class PlatilloListView(generic.ListView):
+class PlatilloListView(LoginRequiredMixin,generic.ListView):
     model = Platillo
 
-class PlatilloDetailView(generic.DetailView):
+class PlatilloDetailView(LoginRequiredMixin, generic.DetailView):
     model = Platillo
+
+class RestauranteListView(LoginRequiredMixin, generic.ListView):
+    model = Restaurante
+
+class RestauranteDetailView(LoginRequiredMixin,generic.DetailView):
+    model = Restaurante
+

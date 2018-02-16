@@ -28,7 +28,7 @@
     <body>
         <header>
             <nav class="navbar navbar-expand-md navbar-dark bg-dark mynavbar">
-                <a href="index.html" class="navbar-brand">
+                <a href="{% url 'mybarapp:index' %}" class="navbar-brand">
                     <img src="{% static 'bar/img/logo/vegetarian-32.png' %}" alt="logo">
                     Servilleta
                 </a>
@@ -52,11 +52,30 @@
                         </li>
                         <li>
                             <a class="nav-link" href="{% url 'mybarapp:grafico' %}">Grafico</a>
-                        </li><li>
+                        </li>
+                        <li>
                             <a class="nav-link" href="{% url 'mybarapp:platillos' %}">Platillos</a>
                         </li>
+                        <li>
+                            <a class="nav-link" href="{% url 'mybarapp:restaurantes' %}">Restaurantes</a>
+                        </li>
+
                     </ul>
-                </div>                
+                </div>
+                <ul class="nav justify-content-end">
+                    {% if user.is_authenticated %}
+                        <li class="nav-item text-white">
+                            <div class="nav-link">Usuario: {{ user.get_username }}</div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'logout' %}?next={{ request.path }}">Logout</a>
+                        </li>
+                    {% else %}
+                        <li class="nav-item">
+                            <a class="nav-link " href="{% url 'login' %}?next={{ request.path }}">Login</a>
+                        </li>
+                    {% endif %}
+                </ul>
             </nav>            
             {% block header %}{% endblock%}
         </header>
@@ -66,7 +85,7 @@
         {% endblock %}
         
         <footer class="container-fluid bg-dark text-light text-center">
-            <p class="float-right"><a href="#">Back to top</a></p>
+            <p class="float-right"><a href="http://localhost:8000/admin/login/?next=/admin/">Back to top</a></p>
             <p class="pt-4">Copyright &copy; 2017 Xenial, Inc. Todos los derechos reservados &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
         </footer>        
         <!-- scripts -->
